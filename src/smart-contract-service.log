@@ -1,0 +1,8 @@
+npm run task:smart-contract-service
+
+> hedera-certification@1.0.0 task:smart-contract-service
+> node src/smart-contract-service.js
+
+ContractId: 0.0.4568551
+Result-one: 12
+Result-two: 14

@@ -1,0 +1,89 @@
+npm run task:setup
+
+> hedera-certification@1.0.0 task:setup
+> node src/setup.js
+
+- Acount 1
+Private key: 302e020100300506032b65700422042002e3fc9441dc666332e60d2c7c73f415070bd104e384a8c046e1eb07cda3cc70
+Account ID: 0.0.4568023
+
+- Acount 2
+Private key: 302e020100300506032b657004220420c07535c0d346d28f3cf6c98aad1cd0d498d835754ebc45b6dbcdc3d86693e25e
+Account ID: 0.0.4568024
+
+- Acount 3
+Private key: 302e020100300506032b65700422042048b20281c1d9d5e40b5bb025373f0b8934cb41b3f24978855701973a74ce94b3
+Account ID: 0.0.4568025
+
+- Acount 4
+Private key: 302e020100300506032b6570042204205b6553f339942035a753c02821e1b3439257533e855538e34700fc386b993a8f
+Account ID: 0.0.4568026
+
+- Acount 5
+Private key: 302e020100300506032b657004220420a3b1d529e9745d679e146e1cb71a35d686712724985665fadf06c9830740703c
+Account ID: 0.0.4568030
+
+[
+  AccountId {
+    shard: Long { low: 0, high: 0, unsigned: false },
+    realm: Long { low: 0, high: 0, unsigned: false },
+    num: Long { low: 4568023, high: 0, unsigned: false },
+    aliasKey: null,
+    evmAddress: null,
+    _checksum: null
+  },
+  AccountId {
+    shard: Long { low: 0, high: 0, unsigned: false },
+    realm: Long { low: 0, high: 0, unsigned: false },
+    num: Long { low: 4568024, high: 0, unsigned: false },
+    aliasKey: null,
+    evmAddress: null,
+    _checksum: null
+  },
+  AccountId {
+    shard: Long { low: 0, high: 0, unsigned: false },
+    realm: Long { low: 0, high: 0, unsigned: false },
+    num: Long { low: 4568025, high: 0, unsigned: false },
+    aliasKey: null,
+    evmAddress: null,
+    _checksum: null
+  },
+  AccountId {
+    shard: Long { low: 0, high: 0, unsigned: false },
+    realm: Long { low: 0, high: 0, unsigned: false },
+    num: Long { low: 4568026, high: 0, unsigned: false },
+    aliasKey: null,
+    evmAddress: null,
+    _checksum: null
+  },
+  AccountId {
+    shard: Long { low: 0, high: 0, unsigned: false },
+    realm: Long { low: 0, high: 0, unsigned: false },
+    num: Long { low: 4568030, high: 0, unsigned: false },
+    aliasKey: null,
+    evmAddress: null,
+    _checksum: null
+  }
+]
+TransactionReceipt {
+  status: Status { _code: 22 },
+  accountId: null,
+  fileId: null,
+  contractId: null,
+  topicId: null,
+  tokenId: null,
+  scheduleId: null,
+  exchangeRate: ExchangeRate {
+    hbars: 30000,
+    cents: 172792,
+    expirationTime: 2023-05-05T09:00:00.000Z,
+    exchangeRateInCents: 5.759733333333333
+  },
+  topicSequenceNumber: Long { low: 0, high: 0, unsigned: false },
+  topicRunningHash: Uint8Array(0) [],
+  totalSupply: Long { low: 0, high: 0, unsigned: false },
+  scheduledTransactionId: null,
+  serials: [],
+  duplicates: [],
+  children: []
+}
